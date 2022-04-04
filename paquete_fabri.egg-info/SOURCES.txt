@@ -1,0 +1,5 @@
+setup.py
+paquete_fabri.egg-info/PKG-INFO
+paquete_fabri.egg-info/SOURCES.txt
+paquete_fabri.egg-info/dependency_links.txt
+paquete_fabri.egg-info/top_level.txt

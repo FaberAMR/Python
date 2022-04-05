@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+<title>familia</title>
+<meta name="description" content="Our first page">
+<meta name="keywords" content="html tutorial template">
+</head>
+<body>
+el contenido va aquí.
+<strong style="color:blue">{{edad}}</strong>
+
+{% for element in list_test %}
+</br>   
+    <strong style="color:blue">{{element}}</strong>
+{% endfor %}
+
+{% if edad == '99' %}
+    <strong style="color:blue">Tiene 99</strong>
+    {{edad}}
+{% endif %}
+
+</body>
+</html>

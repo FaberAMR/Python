@@ -44,7 +44,7 @@ LOCALE_PATHS = [str(ROOT_DIR / "locale")]
 DATABASES = {
     "default": env.db(
         "DATABASE_URL",
-        default="postgres://uybtzzvv:o2QGe0SLKjXllqreXqcjDp_9au1bFv-S@ruby.db.elephantsql.com/uybtzzvv",
+        default="postgres://uybtzzvv:C-VuQCQoXC6xISA8VJn9YF0a_Fagzfkc@ruby.db.elephantsql.com/uybtzzvv",
     ),
 }
 DATABASES["default"]["ATOMIC_REQUESTS"] = True
@@ -85,6 +85,7 @@ THIRD_PARTY_APPS = [
 
 LOCAL_APPS = [
     "mvt.users",
+    "pariente"
     # Your stuff: custom apps go here
 ]
 # https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
